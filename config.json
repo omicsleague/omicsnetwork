@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "vidya-omics.webnode.com",
+    "text": "Wasim Syed"
+  },
+  "text": {
+    "more": "Network de pesquisadores da FCFRP-USP e de outras unidades que se relacionam com as áreas ômicas - Genômica, Epigenômica, Metagenômica, Metabolômica, Proteômica, Lipidômica, Transcriptômica - e suas adjacentes, como Modelagem Molecular, BIologia Computacional, Biofísica, Bioinformática, Design de Fármacos e Quimioinformática.",
+    "intro": "Network de pesquisadores da FCFRP-USP e de outras unidades que se relacionam com as áreas ômicas - Genômica, Epigenômica, Metagenômica, Metabolômica, Proteômica, Lipidômica, Transcriptômica - e suas adjacentes, como Modelagem Molecular, BIologia Computacional, Biofísica, Bioinformática, Design de Fármacos e Quimioinformática. Procure esses termos na barra de pesquisa, para encontrar os docentes correspondentes.",
+    "title": "Omics Network"
+  },
+  "legend": {
+    "edgeLabel": "Relações",
+    "colorLabel": "Docente (Roxo) - Targets (Verde)",
+    "nodeLabel": "Pesquisador (Source) e  Linhas de pesquisa, Palavras-chave, Departamento, Bloco, Países"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
